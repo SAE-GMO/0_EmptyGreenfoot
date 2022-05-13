@@ -33,7 +33,7 @@
 
     <target name="zip" depends="make"
             description="put everything into a zip file">
-        <zip zipfile="${projectName}.zip" basedir="out"/>
+        <zip zipfile="${projectName}.zip" basedir="out/production"/>
     </target>
 
 </project>
